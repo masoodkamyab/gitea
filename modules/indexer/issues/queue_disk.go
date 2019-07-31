@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/log"
 	"github.com/lunny/levelqueue"
 )
 

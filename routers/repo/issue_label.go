@@ -5,11 +5,11 @@
 package repo
 
 import (
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/auth"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/auth"
+	"github.com/masoodkamyab/gitea/modules/base"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/log"
 )
 
 const (

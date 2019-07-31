@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	// Needed for the MySQL driver
 	_ "github.com/go-sql-driver/mysql"

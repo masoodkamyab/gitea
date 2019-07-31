@@ -5,8 +5,8 @@
 package misc
 
 import (
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/base"
+	"github.com/masoodkamyab/gitea/modules/context"
 )
 
 // tplSwagger swagger page template

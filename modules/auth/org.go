@@ -6,8 +6,8 @@
 package auth
 
 import (
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/structs"
 
 	"github.com/go-macaron/binding"
 	"gopkg.in/macaron.v1"

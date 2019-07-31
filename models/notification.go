@@ -7,7 +7,7 @@ package models
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 type (

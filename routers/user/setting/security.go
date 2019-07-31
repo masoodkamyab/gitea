@@ -6,10 +6,10 @@
 package setting
 
 import (
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/base"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 const (

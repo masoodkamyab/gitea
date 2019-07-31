@@ -1,4 +1,4 @@
-module code.gitea.io/gitea
+module github.com/masoodkamyab/gitea
 
 go 1.12
 

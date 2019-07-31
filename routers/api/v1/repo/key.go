@@ -7,12 +7,12 @@ package repo
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/routers/api/v1/convert"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/routers/api/v1/convert"
 
-	api "code.gitea.io/gitea/modules/structs"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 )
 
 // appendPrivateInformation appends the owner and key type information to api.PublicKey

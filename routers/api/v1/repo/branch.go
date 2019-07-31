@@ -6,11 +6,11 @@
 package repo
 
 import (
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/routers/api/v1/convert"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/routers/api/v1/convert"
 
-	api "code.gitea.io/gitea/modules/structs"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 )
 
 // GetBranch get a branch of a repository

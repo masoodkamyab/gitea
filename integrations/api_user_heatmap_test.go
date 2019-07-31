@@ -5,7 +5,7 @@
 package integrations
 
 import (
-	"code.gitea.io/gitea/models"
+	"github.com/masoodkamyab/gitea/models"
 	"fmt"
 	"github.com/stretchr/testify/assert"
 	"net/http"

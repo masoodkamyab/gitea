@@ -14,9 +14,9 @@ import (
 	"github.com/go-xorm/xorm"
 	uuid "github.com/satori/go.uuid"
 
-	"code.gitea.io/gitea/modules/secret"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/secret"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/util"
 
 	"github.com/Unknwon/com"
 	"github.com/dgrijalva/jwt-go"

@@ -60,18 +60,18 @@ package v1
 import (
 	"strings"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/auth"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers/api/v1/admin"
-	"code.gitea.io/gitea/routers/api/v1/misc"
-	"code.gitea.io/gitea/routers/api/v1/org"
-	"code.gitea.io/gitea/routers/api/v1/repo"
-	_ "code.gitea.io/gitea/routers/api/v1/swagger" // for swagger generation
-	"code.gitea.io/gitea/routers/api/v1/user"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/auth"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	api "github.com/masoodkamyab/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/routers/api/v1/admin"
+	"github.com/masoodkamyab/gitea/routers/api/v1/misc"
+	"github.com/masoodkamyab/gitea/routers/api/v1/org"
+	"github.com/masoodkamyab/gitea/routers/api/v1/repo"
+	_ "github.com/masoodkamyab/gitea/routers/api/v1/swagger" // for swagger generation
+	"github.com/masoodkamyab/gitea/routers/api/v1/user"
 
 	"github.com/go-macaron/binding"
 	"github.com/go-macaron/cors"

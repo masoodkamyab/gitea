@@ -7,8 +7,8 @@ package setting
 import (
 	"time"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/log"
 
 	version "github.com/mcuadros/go-version"
 )

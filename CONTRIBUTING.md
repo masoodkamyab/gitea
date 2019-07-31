@@ -148,8 +148,8 @@ import (
   "fmt"
 
   // local packages
-  "code.gitea.io/gitea/models"
-  "code.gitea.io/sdk/gitea"
+  "github.com/masoodkamyab/gitea/models"
+  "github.com/masoodkamyab/sdk/gitea"
 
   // external packages
   "github.com/foo/bar"

@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	"github.com/Unknwon/i18n"
 	macaroni18n "github.com/go-macaron/i18n"

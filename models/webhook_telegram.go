@@ -10,9 +10,9 @@ import (
 	"html"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/markup"
-	api "code.gitea.io/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/markup"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 )
 
 type (

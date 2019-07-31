@@ -11,12 +11,12 @@ import (
 	"os"
 	"strings"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/private"
-	"code.gitea.io/gitea/modules/repofiles"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/private"
+	"github.com/masoodkamyab/gitea/modules/repofiles"
+	"github.com/masoodkamyab/gitea/modules/util"
 
 	macaron "gopkg.in/macaron.v1"
 )

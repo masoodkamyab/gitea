@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	"github.com/go-xorm/xorm"
 )

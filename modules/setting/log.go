@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/log"
 
 	ini "gopkg.in/ini.v1"
 )

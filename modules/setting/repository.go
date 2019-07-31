@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/log"
 	"github.com/Unknwon/com"
 )
 

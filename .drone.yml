@@ -8,7 +8,7 @@ platform:
 
 workspace:
   base: /go
-  path: src/code.gitea.io/gitea
+  path: src/github.com/masoodkamyab/gitea
 
 services:
   - name: mysql
@@ -275,7 +275,7 @@ platform:
 
 workspace:
   base: /go
-  path: src/code.gitea.io/gitea
+  path: src/github.com/masoodkamyab/gitea
 
 trigger:
   branch:
@@ -340,7 +340,7 @@ platform:
 
 workspace:
   base: /go
-  path: src/code.gitea.io/gitea
+  path: src/github.com/masoodkamyab/gitea
 
 trigger:
   branch:
@@ -445,7 +445,7 @@ platform:
 
 workspace:
   base: /go
-  path: src/code.gitea.io/gitea
+  path: src/github.com/masoodkamyab/gitea
 
 trigger:
   event:
@@ -529,7 +529,7 @@ platform:
 
 workspace:
   base: /go
-  path: src/code.gitea.io/gitea
+  path: src/github.com/masoodkamyab/gitea
 
 steps:
   - name: build-docs
@@ -566,7 +566,7 @@ platform:
 
 workspace:
   base: /go
-  path: src/code.gitea.io/gitea
+  path: src/github.com/masoodkamyab/gitea
 
 depends_on:
   - testing
@@ -623,7 +623,7 @@ platform:
 
 workspace:
   base: /go
-  path: src/code.gitea.io/gitea
+  path: src/github.com/masoodkamyab/gitea
 
 when:
   status:

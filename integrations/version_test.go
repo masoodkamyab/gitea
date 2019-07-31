@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/structs"
 
 	"github.com/stretchr/testify/assert"
 )

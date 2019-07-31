@@ -6,8 +6,8 @@
 [![Join the chat at https://img.shields.io/discord/322538954119184384.svg](https://img.shields.io/discord/322538954119184384.svg)](https://discord.gg/NsatcWJ)
 [![](https://images.microbadger.com/badges/image/gitea/gitea.svg)](https://microbadger.com/images/gitea/gitea "Get your own image badge on microbadger.com")
 [![codecov](https://codecov.io/gh/go-gitea/gitea/branch/master/graph/badge.svg)](https://codecov.io/gh/go-gitea/gitea)
-[![Go Report Card](https://goreportcard.com/badge/code.gitea.io/gitea)](https://goreportcard.com/report/code.gitea.io/gitea)
-[![GoDoc](https://godoc.org/code.gitea.io/gitea?status.svg)](https://godoc.org/code.gitea.io/gitea)
+[![Go Report Card](https://goreportcard.com/badge/github.com/masoodkamyab/gitea)](https://goreportcard.com/report/github.com/masoodkamyab/gitea)
+[![GoDoc](https://godoc.org/github.com/masoodkamyab/gitea?status.svg)](https://godoc.org/github.com/masoodkamyab/gitea)
 [![GitHub release](https://img.shields.io/github/release/go-gitea/gitea.svg)](https://github.com/go-gitea/gitea/releases/latest)
 [![Become a backer/sponsor of gitea](https://opencollective.com/gitea/tiers/backer/badge.svg?label=backer&color=brightgreen)](https://opencollective.com/gitea)
 
@@ -21,7 +21,7 @@ Gitea 的首要目标是创建一个极易安装，运行非常快速，安装�
 
 1. **开始贡献代码之前请确保你已经看过了 [贡献者向导（英文）](CONTRIBUTING.md)**.
 2. 所有的安全问题，请私下发送邮件给 **security@gitea.io**。谢谢！
-3. 如果你要使用API，请参见 [API 文档](https://godoc.org/code.gitea.io/sdk/gitea).
+3. 如果你要使用API，请参见 [API 文档](https://godoc.org/github.com/masoodkamyab/sdk/gitea).
 
 ## 文档
 

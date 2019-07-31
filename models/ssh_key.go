@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/process"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/process"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/util"
 
 	"github.com/Unknwon/com"
 	"github.com/go-xorm/xorm"

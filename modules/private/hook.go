@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 // Git environment variables

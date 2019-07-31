@@ -10,9 +10,9 @@ import (
 	gotemplate "html/template"
 	"strings"
 
-	"code.gitea.io/gitea/modules/highlight"
-	"code.gitea.io/gitea/modules/indexer"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/highlight"
+	"github.com/masoodkamyab/gitea/modules/indexer"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 // Result a search result to display

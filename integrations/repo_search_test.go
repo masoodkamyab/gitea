@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/models"
+	"github.com/masoodkamyab/gitea/models"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/stretchr/testify/assert"

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 	"gopkg.in/macaron.v1"
 )
 

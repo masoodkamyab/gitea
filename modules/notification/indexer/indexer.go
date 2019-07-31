@@ -5,10 +5,10 @@
 package indexer
 
 import (
-	"code.gitea.io/gitea/models"
-	issue_indexer "code.gitea.io/gitea/modules/indexer/issues"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/notification/base"
+	"github.com/masoodkamyab/gitea/models"
+	issue_indexer "github.com/masoodkamyab/gitea/modules/indexer/issues"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/notification/base"
 )
 
 type indexerNotifier struct {

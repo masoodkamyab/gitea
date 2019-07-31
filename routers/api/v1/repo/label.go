@@ -8,10 +8,10 @@ package repo
 import (
 	"strconv"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/context"
 
-	api "code.gitea.io/gitea/modules/structs"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 )
 
 // ListLabels list all the labels of a repository

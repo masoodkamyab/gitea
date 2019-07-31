@@ -5,10 +5,10 @@
 package repo
 
 import (
-	"code.gitea.io/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/context"
 
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers/api/v1/convert"
+	api "github.com/masoodkamyab/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/routers/api/v1/convert"
 )
 
 // ListSubscribers list a repo's subscribers (i.e. watchers)

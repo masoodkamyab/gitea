@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"testing"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/git"
 
 	"github.com/go-macaron/session"
 	"github.com/stretchr/testify/assert"

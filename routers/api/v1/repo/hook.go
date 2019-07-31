@@ -5,12 +5,12 @@
 package repo
 
 import (
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/git"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers/api/v1/convert"
-	"code.gitea.io/gitea/routers/api/v1/utils"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/git"
+	api "github.com/masoodkamyab/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/routers/api/v1/convert"
+	"github.com/masoodkamyab/gitea/routers/api/v1/utils"
 )
 
 // ListHooks list all hooks of a repository

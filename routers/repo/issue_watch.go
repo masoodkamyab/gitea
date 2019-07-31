@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/log"
 )
 
 // IssueWatch sets issue watching

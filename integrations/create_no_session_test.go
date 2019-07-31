@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/routers/routes"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/routers/routes"
 
 	"github.com/go-macaron/session"
 	"github.com/stretchr/testify/assert"

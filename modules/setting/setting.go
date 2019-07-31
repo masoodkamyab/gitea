@@ -21,11 +21,11 @@ import (
 	"strings"
 	"time"
 
-	"code.gitea.io/gitea/modules/generate"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
-	_ "code.gitea.io/gitea/modules/minwinsvc" // import minwinsvc for windows services
-	"code.gitea.io/gitea/modules/user"
+	"github.com/masoodkamyab/gitea/modules/generate"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/log"
+	_ "github.com/masoodkamyab/gitea/modules/minwinsvc" // import minwinsvc for windows services
+	"github.com/masoodkamyab/gitea/modules/user"
 
 	"github.com/Unknwon/cae/zip"
 	"github.com/Unknwon/com"

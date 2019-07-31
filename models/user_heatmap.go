@@ -5,8 +5,8 @@
 package models
 
 import (
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 // UserHeatmapData represents the data needed to create a heatmap

@@ -55,12 +55,12 @@ present we use `vendor/` directories.
 The recommended method of obtaining the source code is by using the `go get` command:
 
 ```bash
-go get -d code.gitea.io/gitea
-cd "$GOPATH/src/code.gitea.io/gitea"
+go get -d github.com/masoodkamyab/gitea
+cd "$GOPATH/src/github.com/masoodkamyab/gitea"
 ```
 
-This will clone the Gitea source code to: `"$GOPATH/src/code.gitea.io/gitea"`, or if `$GOPATH`
-is not set `"$HOME/go/src/code.gitea.io/gitea"`.
+This will clone the Gitea source code to: `"$GOPATH/src/github.com/masoodkamyab/gitea"`, or if `$GOPATH`
+is not set `"$HOME/go/src/github.com/masoodkamyab/gitea"`.
 
 ## Forking Gitea
 
@@ -70,7 +70,7 @@ and either switch the git remote origin for your fork or add your fork as anothe
 
 ```bash
 # Rename original Gitea origin to upstream
-cd "$GOPATH/src/code.gitea.io/gitea"
+cd "$GOPATH/src/github.com/masoodkamyab/gitea"
 git remote rename origin upstream
 git remote add origin "git@github.com:$GITHUB_USERNAME/gitea.git"
 git fetch --all --prune
@@ -80,7 +80,7 @@ or:
 
 ```bash
 # Add new remote for our fork
-cd "$GOPATH/src/code.gitea.io/gitea"
+cd "$GOPATH/src/github.com/masoodkamyab/gitea"
 git remote add "$FORK_NAME" "git@github.com:$GITHUB_USERNAME/gitea.git"
 git fetch --all --prune
 ```
@@ -256,7 +256,7 @@ Documentation for the website is found in `docs/`. If you change this you
 can test your changes to ensure that they pass continuous integration using:
 
 ```bash
-cd "$GOPATH/src/code.gitea.io/gitea/docs"
+cd "$GOPATH/src/github.com/masoodkamyab/gitea/docs"
 make trans-copy clean build
 ```
 

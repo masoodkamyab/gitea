@@ -8,7 +8,7 @@ package models
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/git"
 )
 
 // ErrNameReserved represents a "reserved name" error.

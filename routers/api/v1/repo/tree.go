@@ -5,8 +5,8 @@
 package repo
 
 import (
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/repofiles"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/repofiles"
 )
 
 // GetTree get the tree of a repository.

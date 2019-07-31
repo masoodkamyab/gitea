@@ -41,8 +41,8 @@ cloning the Gitea repository to an arbitrary path is likely to lead to
 problems - the fixing of which is out of scope for this document.
 
 ```bash
-go get -d -u code.gitea.io/gitea
-cd "$GOPATH/src/code.gitea.io/gitea"
+go get -d -u github.com/masoodkamyab/gitea
+cd "$GOPATH/src/github.com/masoodkamyab/gitea"
 ```
 
 Decide which version of Gitea to build and install. Currently, there are
@@ -132,9 +132,9 @@ One option is to use a script file to shadow the `gitea` binary and create an ap
 environment before running Gitea. However, when building you can change these defaults
 using the `LDFLAGS` environment variable for `make`. The appropriate settings are as follows
 
-* To set the `CustomPath` use `LDFLAGS="-X \"code.gitea.io/gitea/modules/setting.CustomPath=custom-path\""`
-* For `CustomConf` you should use `-X \"code.gitea.io/gitea/modules/setting.CustomConf=conf.ini\"`
-* For `AppWorkDir` you should use `-X \"code.gitea.io/gitea/modules/setting.AppWorkDir=working-directory\"`
+* To set the `CustomPath` use `LDFLAGS="-X \"github.com/masoodkamyab/gitea/modules/setting.CustomPath=custom-path\""`
+* For `CustomConf` you should use `-X \"github.com/masoodkamyab/gitea/modules/setting.CustomConf=conf.ini\"`
+* For `AppWorkDir` you should use `-X \"github.com/masoodkamyab/gitea/modules/setting.AppWorkDir=working-directory\"`
 
 Add as many of the strings with their preceding `-X` to the `LDFLAGS` variable and run `make build`
 with the appropriate `TAGS` as above.

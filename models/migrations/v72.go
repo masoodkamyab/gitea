@@ -7,7 +7,7 @@ package migrations
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/util"
 
 	"github.com/go-xorm/xorm"
 )

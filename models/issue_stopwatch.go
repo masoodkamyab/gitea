@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 // Stopwatch represents a stopwatch for time tracking.

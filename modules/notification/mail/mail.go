@@ -5,9 +5,9 @@
 package mail
 
 import (
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/notification/base"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/notification/base"
 )
 
 type mailNotifier struct {

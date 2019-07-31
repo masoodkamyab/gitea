@@ -7,8 +7,8 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/repofiles"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/repofiles"
 )
 
 // GetBlob get the blob of a repository file.

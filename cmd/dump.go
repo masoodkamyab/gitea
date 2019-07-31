@@ -14,8 +14,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	"github.com/Unknwon/cae/zip"
 	"github.com/Unknwon/com"

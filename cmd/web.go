@@ -13,10 +13,10 @@ import (
 	"os"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/routers"
-	"code.gitea.io/gitea/routers/routes"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/routers"
+	"github.com/masoodkamyab/gitea/routers/routes"
 
 	"github.com/Unknwon/com"
 	context2 "github.com/gorilla/context"

@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"strings"
 
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/util"
 
 	"xorm.io/builder"
 )

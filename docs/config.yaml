@@ -39,7 +39,7 @@ menu:
       weight: 30
       pre: rss
     - name: Code
-      url: https://code.gitea.io/
+      url: https://github.com/masoodkamyab/
       weight: 40
       pre: code
     - name: Downloads
@@ -87,7 +87,7 @@ languages:
           weight: 30
           pre: rss
         - name: 导入
-          url: https://code.gitea.io/
+          url: https://github.com/masoodkamyab/
           weight: 40
           pre: code
         - name: 下载
@@ -130,7 +130,7 @@ languages:
           weight: 30
           pre: rss
         - name: 程式碼
-          url: https://code.gitea.io/
+          url: https://github.com/masoodkamyab/
           weight: 40
           pre: code
         - name: 下载
@@ -173,7 +173,7 @@ languages:
           weight: 30
           pre: rss
         - name: Código-fonte
-          url: https://code.gitea.io/
+          url: https://github.com/masoodkamyab/
           weight: 40
           pre: code
         - name: Downloads
@@ -216,7 +216,7 @@ languages:
           weight: 30
           pre: rss
         - name: Code
-          url: https://code.gitea.io/
+          url: https://github.com/masoodkamyab/
           weight: 40
           pre: code
         - name: Downloads
@@ -259,7 +259,7 @@ languages:
           weight: 30
           pre: rss
         - name: Code
-          url: https://code.gitea.io/
+          url: https://github.com/masoodkamyab/
           weight: 40
           pre: code
         - name: Téléchargement

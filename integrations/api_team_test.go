@@ -10,9 +10,9 @@ import (
 	"sort"
 	"testing"
 
-	"code.gitea.io/gitea/models"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers/api/v1/convert"
+	"github.com/masoodkamyab/gitea/models"
+	api "github.com/masoodkamyab/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/routers/api/v1/convert"
 
 	"github.com/stretchr/testify/assert"
 )

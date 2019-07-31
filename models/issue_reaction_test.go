@@ -6,7 +6,7 @@ package models
 import (
 	"testing"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	"github.com/stretchr/testify/assert"
 )

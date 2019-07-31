@@ -7,8 +7,8 @@ package models
 import (
 	"errors"
 
-	"code.gitea.io/gitea/modules/auth/openid"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/auth/openid"
+	"github.com/masoodkamyab/gitea/modules/log"
 )
 
 var (

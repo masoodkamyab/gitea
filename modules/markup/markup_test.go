@@ -7,8 +7,8 @@ package markup_test
 import (
 	"testing"
 
-	. "code.gitea.io/gitea/modules/markup"
-	_ "code.gitea.io/gitea/modules/markup/markdown"
+	. "github.com/masoodkamyab/gitea/modules/markup"
+	_ "github.com/masoodkamyab/gitea/modules/markup/markdown"
 
 	"github.com/stretchr/testify/assert"
 )

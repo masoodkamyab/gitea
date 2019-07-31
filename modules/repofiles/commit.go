@@ -5,8 +5,8 @@
 package repofiles
 
 import (
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/git"
 )
 
 // CountDivergingCommits determines how many commits a branch is ahead or behind the repository's base branch

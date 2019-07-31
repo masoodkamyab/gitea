@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"code.gitea.io/gitea/models"
+	"github.com/masoodkamyab/gitea/models"
 )
 
 func TestMain(m *testing.M) {

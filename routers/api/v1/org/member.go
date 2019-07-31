@@ -7,13 +7,13 @@ package org
 import (
 	"fmt"
 
-	api "code.gitea.io/gitea/modules/structs"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/routers/api/v1/convert"
-	"code.gitea.io/gitea/routers/api/v1/user"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/routers/api/v1/convert"
+	"github.com/masoodkamyab/gitea/routers/api/v1/user"
 )
 
 // listMembers list an organization's members

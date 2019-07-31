@@ -9,8 +9,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 // Metrics validate auth token and render prometheus metrics

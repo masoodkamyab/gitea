@@ -11,9 +11,9 @@ import (
 
 	gouuid "github.com/satori/go.uuid"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/generate"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/base"
+	"github.com/masoodkamyab/gitea/modules/generate"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 // AccessToken represents a personal access token.

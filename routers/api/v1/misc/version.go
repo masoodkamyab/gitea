@@ -5,9 +5,9 @@
 package misc
 
 import (
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/structs"
 )
 
 // Version shows the version of the Gitea server

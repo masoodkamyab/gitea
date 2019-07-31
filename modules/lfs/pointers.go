@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/base"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 // ReadPointerFile will return a partially filled LFSMetaObject if the provided reader is a pointer file

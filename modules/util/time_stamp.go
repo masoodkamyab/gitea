@@ -7,7 +7,7 @@ package util
 import (
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 // TimeStamp defines a timestamp

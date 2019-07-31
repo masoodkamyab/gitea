@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 // KeyAndOwner is the response from ServNoCommand

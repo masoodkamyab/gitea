@@ -15,7 +15,7 @@ import (
 	"github.com/Unknwon/com"
 	gouuid "github.com/satori/go.uuid"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 //  ____ ___        .__                    .___ ___________.___.__

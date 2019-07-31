@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"io"
 
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 // LFSMetaObject stores metadata for LFS tracked files.

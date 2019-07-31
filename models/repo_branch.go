@@ -8,8 +8,8 @@ package models
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/log"
 )
 
 // CanCreateBranch returns true if repository meets the requirements for creating new branches.

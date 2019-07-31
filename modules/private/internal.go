@@ -11,8 +11,8 @@ import (
 	"net"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/httplib"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/httplib"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 func newRequest(url, method string) *httplib.Request {

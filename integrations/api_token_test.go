@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/models"
-	api "code.gitea.io/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/models"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 )
 
 // TestAPICreateAndDeleteToken tests that token that was just created can be deleted

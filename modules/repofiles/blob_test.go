@@ -7,9 +7,9 @@ package repofiles
 import (
 	"testing"
 
-	"code.gitea.io/gitea/models"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/modules/test"
+	"github.com/masoodkamyab/gitea/models"
+	api "github.com/masoodkamyab/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/modules/test"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -9,12 +9,12 @@ import (
 	"encoding/base64"
 	"net/http"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/repofiles"
-	api "code.gitea.io/gitea/modules/structs"
-	"code.gitea.io/gitea/routers/repo"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/repofiles"
+	api "github.com/masoodkamyab/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/routers/repo"
 )
 
 // GetRawFile get a file by path on a repository

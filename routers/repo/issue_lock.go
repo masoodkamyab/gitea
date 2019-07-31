@@ -7,9 +7,9 @@ package repo
 import (
 	"net/http"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/auth"
-	"code.gitea.io/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/auth"
+	"github.com/masoodkamyab/gitea/modules/context"
 )
 
 // LockIssue locks an issue. This would limit commenting abilities to

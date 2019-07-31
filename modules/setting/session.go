@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/log"
 	// This ensures that VirtualSessionProvider is available
-	_ "code.gitea.io/gitea/modules/session"
+	_ "github.com/masoodkamyab/gitea/modules/session"
 
 	"github.com/go-macaron/session"
 )

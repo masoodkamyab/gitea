@@ -3,9 +3,9 @@ package repo
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/git"
 )
 
 // SetEditorconfigIfExists set editor config as render variable

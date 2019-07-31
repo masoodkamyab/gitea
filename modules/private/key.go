@@ -7,7 +7,7 @@ package private
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 // UpdatePublicKeyInRepo update public key and if necessary deploy key updates

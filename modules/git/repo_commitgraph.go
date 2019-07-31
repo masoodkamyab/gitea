@@ -9,7 +9,7 @@ import (
 	"os"
 	"path"
 
-	gitealog "code.gitea.io/gitea/modules/log"
+	gitealog "github.com/masoodkamyab/gitea/modules/log"
 	"gopkg.in/src-d/go-git.v4/plumbing/format/commitgraph"
 	cgobject "gopkg.in/src-d/go-git.v4/plumbing/object/commitgraph"
 )

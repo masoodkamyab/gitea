@@ -7,14 +7,14 @@ package admin
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/auth"
-	"code.gitea.io/gitea/modules/auth/ldap"
-	"code.gitea.io/gitea/modules/auth/oauth2"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/context"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/auth"
+	"github.com/masoodkamyab/gitea/modules/auth/ldap"
+	"github.com/masoodkamyab/gitea/modules/auth/oauth2"
+	"github.com/masoodkamyab/gitea/modules/base"
+	"github.com/masoodkamyab/gitea/modules/context"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	"github.com/Unknwon/com"
 	"xorm.io/core"

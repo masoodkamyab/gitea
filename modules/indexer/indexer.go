@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	"github.com/blevesearch/bleve"
 	"github.com/blevesearch/bleve/analysis/token/unicodenorm"

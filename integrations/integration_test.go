@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/routers"
-	"code.gitea.io/gitea/routers/routes"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/base"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/routers"
+	"github.com/masoodkamyab/gitea/routers/routes"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/Unknwon/com"

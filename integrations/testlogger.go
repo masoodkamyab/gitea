@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/log"
 )
 
 var prefix string

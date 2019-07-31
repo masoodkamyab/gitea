@@ -7,7 +7,7 @@ package issues
 import (
 	"time"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 // ChannelQueue implements

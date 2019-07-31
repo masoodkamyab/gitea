@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"code.gitea.io/gitea/modules/base"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/base"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	"github.com/Unknwon/com"
 	"github.com/go-xorm/xorm"

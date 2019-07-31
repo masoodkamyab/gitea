@@ -10,9 +10,9 @@ import (
 	"path"
 	"strings"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/git"
-	api "code.gitea.io/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/git"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 )
 
 // ContentType repo content type

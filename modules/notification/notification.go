@@ -5,12 +5,12 @@
 package notification
 
 import (
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/notification/base"
-	"code.gitea.io/gitea/modules/notification/indexer"
-	"code.gitea.io/gitea/modules/notification/mail"
-	"code.gitea.io/gitea/modules/notification/ui"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/notification/base"
+	"github.com/masoodkamyab/gitea/modules/notification/indexer"
+	"github.com/masoodkamyab/gitea/modules/notification/mail"
+	"github.com/masoodkamyab/gitea/modules/notification/ui"
 )
 
 var (

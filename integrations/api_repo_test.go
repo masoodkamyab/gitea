@@ -12,8 +12,8 @@ import (
 	"os"
 	"testing"
 
-	"code.gitea.io/gitea/models"
-	api "code.gitea.io/gitea/modules/structs"
+	"github.com/masoodkamyab/gitea/models"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 
 	"github.com/stretchr/testify/assert"
 )

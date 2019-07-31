@@ -8,7 +8,7 @@ package models
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/log"
 )
 
 // AccessMode specifies the users access mode

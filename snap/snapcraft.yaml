@@ -60,16 +60,16 @@ parts:
       export GOPATH=$SNAPCRAFT_PART_INSTALL/../go
       export bld=$SNAPCRAFT_PART_INSTALL/../build
       export src=$SNAPCRAFT_PART_INSTALL/../src
-      mkdir -p $GOPATH/src/code.gitea.io/gitea
-      cp -r $src/* $GOPATH/src/code.gitea.io/gitea
+      mkdir -p $GOPATH/src/github.com/masoodkamyab/gitea
+      cp -r $src/* $GOPATH/src/github.com/masoodkamyab/gitea
     build: |
       export PATH=$SNAPCRAFT_PART_INSTALL/../go/bin/:$SNAPCRAFT_PART_INSTALL/../../go/install/bin:$PATH
       export GOPATH=$SNAPCRAFT_PART_INSTALL/../go
-      cd $GOPATH/src/code.gitea.io/gitea
+      cd $GOPATH/src/github.com/masoodkamyab/gitea
       TAGS="bindata sqlite sqlite_unlock_notify pam cert" make generate build
     install: |
       # Set Convenience Variables
-      src=$SNAPCRAFT_PART_INSTALL/../go/src/code.gitea.io/gitea
+      src=$SNAPCRAFT_PART_INSTALL/../go/src/github.com/masoodkamyab/gitea
       giteaBase=$SNAPCRAFT_PART_INSTALL/gitea
       scurrent=/var/snap/$SNAPCRAFT_PROJECT_NAME/current
       scommon=/var/snap/$SNAPCRAFT_PROJECT_NAME/common

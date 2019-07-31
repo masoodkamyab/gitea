@@ -1,5 +1,5 @@
 DIST := dist
-IMPORT := code.gitea.io/gitea
+IMPORT := github.com/masoodkamyab/gitea
 export GO111MODULE=off
 
 GO ?= go
@@ -41,7 +41,7 @@ endif
 
 LDFLAGS := $(LDFLAGS) -X "main.MakeVersion=$(MAKE_VERSION)" -X "main.Version=$(GITEA_VERSION)" -X "main.Tags=$(TAGS)"
 
-PACKAGES ?= $(filter-out code.gitea.io/gitea/integrations/migration-test,$(filter-out code.gitea.io/gitea/integrations,$(shell $(GO) list ./... | grep -v /vendor/)))
+PACKAGES ?= $(filter-out github.com/masoodkamyab/gitea/integrations/migration-test,$(filter-out github.com/masoodkamyab/gitea/integrations,$(shell $(GO) list ./... | grep -v /vendor/)))
 SOURCES ?= $(shell find . -name "*.go" -type f)
 
 TAGS ?=
@@ -285,21 +285,21 @@ integration-test-coverage: integrations.cover.test generate-ini
 	GITEA_ROOT=${CURDIR} GITEA_CONF=integrations/mysql.ini ./integrations.cover.test -test.coverprofile=integration.coverage.out
 
 integrations.test: $(SOURCES)
-	GO111MODULE=on $(GO) test -mod=vendor -c code.gitea.io/gitea/integrations -o integrations.test
+	GO111MODULE=on $(GO) test -mod=vendor -c github.com/masoodkamyab/gitea/integrations -o integrations.test
 
 integrations.sqlite.test: $(SOURCES)
-	GO111MODULE=on $(GO) test -mod=vendor -c code.gitea.io/gitea/integrations -o integrations.sqlite.test -tags 'sqlite sqlite_unlock_notify'
+	GO111MODULE=on $(GO) test -mod=vendor -c github.com/masoodkamyab/gitea/integrations -o integrations.sqlite.test -tags 'sqlite sqlite_unlock_notify'
 
 integrations.cover.test: $(SOURCES)
-	GO111MODULE=on $(GO) test -mod=vendor -c code.gitea.io/gitea/integrations -coverpkg $(shell echo $(PACKAGES) | tr ' ' ',') -o integrations.cover.test
+	GO111MODULE=on $(GO) test -mod=vendor -c github.com/masoodkamyab/gitea/integrations -coverpkg $(shell echo $(PACKAGES) | tr ' ' ',') -o integrations.cover.test
 
 .PHONY: migrations.test
 migrations.test: $(SOURCES)
-	$(GO) test -c code.gitea.io/gitea/integrations/migration-test -o migrations.test
+	$(GO) test -c github.com/masoodkamyab/gitea/integrations/migration-test -o migrations.test
 
 .PHONY: migrations.sqlite.test
 migrations.sqlite.test: $(SOURCES)
-	$(GO) test -c code.gitea.io/gitea/integrations/migration-test -o migrations.sqlite.test -tags 'sqlite sqlite_unlock_notify'
+	$(GO) test -c github.com/masoodkamyab/gitea/integrations/migration-test -o migrations.sqlite.test -tags 'sqlite sqlite_unlock_notify'
 
 .PHONY: check
 check: test

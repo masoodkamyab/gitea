@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"code.gitea.io/gitea/modules/markup"
+	"github.com/masoodkamyab/gitea/modules/markup"
 
 	"github.com/go-xorm/xorm"
 )

@@ -10,10 +10,10 @@ import (
 	"github.com/go-xorm/xorm"
 	"xorm.io/core"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/generate"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/generate"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 func hashAppToken(x *xorm.Engine) error {

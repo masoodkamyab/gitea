@@ -10,7 +10,7 @@ import (
 	"html"
 	"io"
 
-	"code.gitea.io/gitea/modules/markup"
+	"github.com/masoodkamyab/gitea/modules/markup"
 )
 
 func init() {

@@ -20,12 +20,12 @@ import (
 	"strconv"
 	"time"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/markup/external"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/routers"
-	"code.gitea.io/gitea/routers/routes"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/markup"
+	"github.com/masoodkamyab/gitea/modules/markup/external"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/routers"
+	"github.com/masoodkamyab/gitea/routers/routes"
 
 	"github.com/Unknwon/com"
 	"github.com/go-xorm/xorm"

@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"testing"
 
-	"code.gitea.io/gitea/models"
+	"github.com/masoodkamyab/gitea/models"
 )
 
 func assertUserDeleted(t *testing.T, userID int64) {

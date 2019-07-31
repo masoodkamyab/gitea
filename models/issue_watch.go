@@ -4,7 +4,7 @@
 
 package models
 
-import "code.gitea.io/gitea/modules/util"
+import "github.com/masoodkamyab/gitea/modules/util"
 
 // IssueWatch is connection request for receiving issue notification.
 type IssueWatch struct {

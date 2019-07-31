@@ -8,8 +8,8 @@ import (
 	"math"
 	"net/http"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/setting"
 
 	"github.com/go-xorm/xorm"
 	"github.com/lafriks/xormstore"

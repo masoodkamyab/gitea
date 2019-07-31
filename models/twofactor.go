@@ -19,9 +19,9 @@ import (
 	"github.com/pquerna/otp/totp"
 	"golang.org/x/crypto/pbkdf2"
 
-	"code.gitea.io/gitea/modules/generate"
-	"code.gitea.io/gitea/modules/setting"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/generate"
+	"github.com/masoodkamyab/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 // TwoFactor represents a two-factor authentication token.

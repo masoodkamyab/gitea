@@ -5,7 +5,7 @@
 package models
 
 import (
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/log"
 	"strings"
 )
 

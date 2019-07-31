@@ -8,9 +8,9 @@ package migrations
 import (
 	"fmt"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/migrations/base"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/migrations/base"
 )
 
 // MigrateOptions is equal to base.MigrateOptions

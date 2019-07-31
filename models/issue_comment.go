@@ -11,18 +11,18 @@ import (
 	"fmt"
 	"strings"
 
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/markup/markdown"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/markup/markdown"
+	"github.com/masoodkamyab/gitea/modules/setting"
 	"github.com/Unknwon/com"
 	"github.com/go-xorm/xorm"
 	"xorm.io/builder"
 
-	api "code.gitea.io/gitea/modules/structs"
+	api "github.com/masoodkamyab/gitea/modules/structs"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/markup"
-	"code.gitea.io/gitea/modules/util"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/markup"
+	"github.com/masoodkamyab/gitea/modules/util"
 )
 
 // CommentType defines whether a comment is just a simple comment, an action (like close) or a reference.

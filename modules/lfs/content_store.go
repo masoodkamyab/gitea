@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"code.gitea.io/gitea/models"
+	"github.com/masoodkamyab/gitea/models"
 )
 
 var (

@@ -9,8 +9,8 @@ import (
 	"path"
 	"strings"
 
-	"code.gitea.io/gitea/modules/log"
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/modules/setting"
 )
 
 // PathEscapeSegments escapes segments of a path while not escaping forward slash

@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 	"path"
 
-	"code.gitea.io/gitea/modules/setting"
+	"github.com/masoodkamyab/gitea/modules/setting"
 	"github.com/Unknwon/com"
 )
 

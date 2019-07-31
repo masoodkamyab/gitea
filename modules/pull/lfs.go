@@ -14,10 +14,10 @@ import (
 	"strings"
 	"sync"
 
-	"code.gitea.io/gitea/models"
-	"code.gitea.io/gitea/modules/git"
-	"code.gitea.io/gitea/modules/lfs"
-	"code.gitea.io/gitea/modules/log"
+	"github.com/masoodkamyab/gitea/models"
+	"github.com/masoodkamyab/gitea/modules/git"
+	"github.com/masoodkamyab/gitea/modules/lfs"
+	"github.com/masoodkamyab/gitea/modules/log"
 )
 
 // LFSPush pushes lfs objects referred to in new commits in the head repository from the base repository
